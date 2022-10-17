@@ -2,8 +2,8 @@ namespace Zoo;
 
 public class Fish
 {
-    public double Length;
-    public bool Edible;
+    public double Length { get; set; }
+    public bool Edible { get; set; }
 
     public Fish(bool edible, double length)
     {
